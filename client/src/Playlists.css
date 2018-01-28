@@ -1,0 +1,25 @@
+body {
+	text-align: center;
+}
+
+.Playlists ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Playlists ul li {
+  display: inline-block;
+  height: 150px;
+  width: 150px; 
+}
+
+.Playlists ul li img {
+  opacity: .8;
+  transition: opacity 0.2s ease-in-out;
+  width: 100%;
+}
+
+.Playlists ul li img:hover {
+  opacity: 1;
+}
