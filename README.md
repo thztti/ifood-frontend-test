@@ -6,6 +6,7 @@ Spotifood is used to display the preferred playlists from iFood's customers. The
 Assuming you have npm and node installed, clone the repository and install its dependencies by running:
 
 	$ cd auth_server/authorization_code
+	$ npm install
 	$ node app.js
 
 Leave this process running and on a separate terminal window, enter:
